@@ -9,7 +9,7 @@ services:
       - 5160:5160/udp
       - 3306:3306
       - 18000-18100:18000-18100/udp
-    restart: always
+    # restart: always
     environment:
       - ADMIN_PASSWORD=admin123
     volumes:
