@@ -17,7 +17,7 @@ services:
       - recordings:/var/spool/asterisk/monitor
     networks:
       macvlan0:
-        ipv4_address: 192.168.0.3
+        ipv4_address: 192.168.0.4
     privileged: true
 
 volumes:
